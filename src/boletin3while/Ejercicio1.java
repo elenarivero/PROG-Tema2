@@ -1,4 +1,4 @@
-package boletin3;
+package boletin3while;
 
 import java.util.Scanner;
 
