@@ -28,15 +28,18 @@ public class Ejercicio9 {
 					break;
 				} 
 			}
+			
+			if(esPrimo) {
+				System.out.println("El número es primo");
+			} else {
+				System.out.println("El número no es primo");
+			}
+			
 		} else {
 			System.out.println("El valor introducido no es correcto");
 		}
 		
-		if(esPrimo) {
-			System.out.println("El número es primo");
-		} else {
-			System.out.println("El número no es primo");
-		}
+		
 		
 		// Cerramos el Scanner
 		sc.close();
