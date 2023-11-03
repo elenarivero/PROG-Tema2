@@ -43,8 +43,8 @@ public class Ejercicio6 {
 				x1 = (-b + Math.sqrt(discriminante)) / 2 * a;
 				x2 = (-b - Math.sqrt(discriminante)) / 2 * a;
 				System.out.println("Las soluciones de la ecuación son:\n" + x1 + "\n" + x2);
-			}
-		}
-	}
+			} // fin if-else de cuando a==0
+		} // fin if-else discrimante < 0
+	} // fin método main
 
-}
+} // fin clase
