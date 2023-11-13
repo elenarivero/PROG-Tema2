@@ -11,9 +11,6 @@ public class Ejercicio10 {
 		int numReves = 0;
 		int ultimaCifra;
 		
-		// Variable que cuenta cifras
-		int contador = 0;
-		
 		// Creamos el Scanner para leer de teclado
 		Scanner sc = new Scanner(System.in);
 		
